@@ -1,0 +1,16 @@
+.content-1{
+    display: flex;
+}
+.content-2{
+    display: flex;
+}
+@media screen and (max-width:576px) {
+    .content-1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .content-2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

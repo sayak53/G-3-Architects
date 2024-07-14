@@ -1,0 +1,47 @@
+.box-1{
+    height: 450px;
+    width: 500px;
+    background-color: violet;
+    border: 2px solid black;
+}
+.box-2{
+    height: 100%;
+    width: 500px;
+    background-color: violet;
+    border: 2px solid black;
+}
+.box-3{
+    height: 100%;
+    width: 500px;
+    background-color: violet;
+    border: 2px solid black;
+}
+.box-4{
+    height: 100%;
+    width: 500px;
+    background-color: violet;
+    border: 2px solid black;
+}
+.box-container{
+    display: flex;
+    height: 450px;
+    gap: 10px;
+}
+@media screen and (max-width:576px) {
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box-1{
+        height: 200px;
+    }
+    .box-2{
+        height: 200px;
+    }
+    .box-3{
+        height: 200px;
+    }
+    .box-4{
+        height: 200px;
+    }
+}
