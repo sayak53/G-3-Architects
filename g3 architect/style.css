@@ -194,6 +194,60 @@ header{
 .first-section{
     margin-top: 40px;
 }
+.vl {
+        border-left: 6px solid rgb(255, 144, 14);
+        height: 20px;
+    }
+.facts{
+    height: 550px;
+    width: 1440px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-bottom: 120px;
+}
+.facts h1{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 30px;
+}
+.facts p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.card{
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.card h3{
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
 
 
 
@@ -214,5 +268,18 @@ header{
     }
     .teams{
         margin-top: 30em;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .second-section img{
+        width: 400px;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .facts{
+        margin-top: 50em;
+        width: 500px;
     }
 }
