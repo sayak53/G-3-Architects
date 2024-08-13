@@ -1,0 +1,32 @@
+@media screen and (max-width:576px) {
+    body{
+        width: 433px;
+    }
+    header{
+        height: 100%;
+    }
+    .head-container{
+        flex-direction: column;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-head h4{
+        margin-right: 15rem;
+    }
+    .text-div h1{
+        font-size: 3.7rem;
+    }
+    .text-div{
+        margin-left: 2.7rem;
+    }
+    .free-workout{
+        height: 73px;
+        width: 133px;
+        left: 270px;
+        top: 4rem;
+    }
+    .free-workout h2{
+        font-size: 1.5rem;
+    }
+}
