@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+header{
+    width: 100%;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 715px;
+}
+/* nav-section starts */
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    display: flex;
+    height: 36px;
+    width: 39em;
+    margin-top: 3.4rem;
+    border: 2px solid white;
+    border-radius: 1.7rem;
+    padding: 0.3rem;
+}
+.hom{
+    background-color: rgb(230, 83, 60);
+    padding: 6px;
+    border: none;
+    border-radius: 1rem;
+}
+.abt{
+    margin-right: 10px;
+}
+.link p{
+    margin-right: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.nav-head h4{
+    color: rgb(230, 83, 60);
+    font-size: 2.4rem;
+    margin-top: 2.5rem;
+}
+/* nav-section ends here */
+
+/* header-items starts here */
+.text-div h1{
+    color: rgb(255, 255, 255);
+    font-size: 4.7rem;
+}
+.text-div p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+.text-div{
+    margin-top: 5rem;
+}
+.first-btn{
+    height: 2.8rem;
+    width: 35%;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    border-radius: 2.8rem;
+    color: white;
+}
+.second-btn{
+    height: 2.8rem;
+    width: 35%;
+    border: 1px solid white;
+    border-radius:2.8rem ;
+    background-color: rgba(0, 0, 0, 0.759);
+    color: white;
+}
+.image-div{
+    height: 585px;
+    width: 30%;
+    /* border: 3px solid yellow; */
+    /* background-image: url(/images/Images\ 2.png); */
+    background-size: cover;
+    position: relative;
+}
+.head-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.vdo-tutorial{
+    display: flex;
+    height: 76px;
+    width: 190px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 2.5rem;
+}
+.free-workout{
+    height: 93px;
+    width:193px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 60%;
+    left: 60%;
+}
+.paragraph h3 {
+    color: rgb(255, 255, 255);
+}
+.paragraph p{
+    color:rgba(239, 237, 232, 0.65);
+    font-size: 0.8rem;
+}
+.free-workout h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+.free-workout p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.7rem;
+}
+/* header-items ends here */

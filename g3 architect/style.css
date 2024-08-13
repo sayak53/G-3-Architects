@@ -247,6 +247,40 @@ header{
     justify-content: space-evenly;
     margin-top: 100px;
 }
+.sponsors{
+    height: 350px;
+    width: 1440px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-bottom: 120px;   
+}
+.sponsors h1{
+color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sponsors p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 100px;
+    margin-top:100px ;
+}
+.sponsor-img img{
+    filter: grayscale(100%);
+}
 
 
 
@@ -281,5 +315,14 @@ header{
     .facts{
         margin-top: 50em;
         width: 500px;
+    }
+    .sponsors{
+        height: 650px;
+        width: 500px;
+        margin-top: 50em;
+    }
+    .sponsor-img{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
     }
 }
